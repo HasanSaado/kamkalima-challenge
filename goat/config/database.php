@@ -43,16 +43,7 @@ return [
             'foreign_key_constraints' => env('DB_FOREIGN_KEYS', true),
         ],
 
-        'testing' => [
-            'driver' => 'mysql',
-            // 'port' => env('DB_PORT', '3306'),
-            // 'host' => env('DB_HOST', '127.0.0.1'),
-            'database' => database_path('database.sql'),
-            'prefix' => '',
-            // 'username' => 'root',
-            // 'password' =>'Hassan!123',
-           
-        ],
+       
 
         'mysql' => [
             'driver' => 'mysql',

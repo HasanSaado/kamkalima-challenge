@@ -139,7 +139,7 @@
 
     <main class="grid" style="margin-top:30px">
       <div>
-        <a href="../team_news/Arsenal">
+        <a href="../team_news/Arsenal" id="Arsenal">
           <img src="{{URL::to('/')}}/images/Arsenal_Logo.png" alt="Sample photo">
         </a>
         <b>Arsenal</b>

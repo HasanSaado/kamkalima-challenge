@@ -17,7 +17,7 @@ trait CreatesApplication
 
         $app->make(Kernel::class)->bootstrap();
 
-        $app['config']->set('database.dafault','testing');
+        // $app['config']->set('database.dafault','testing');
         return $app;
     }
 }
